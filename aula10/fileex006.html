@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula10</title>
+    <style>
+        div#area{
+            font: normal 15pt arial;
+            background-color: rgb(4, 196, 4);
+            color: white;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interaja...
+
+    </div>
+
+    <script>
+        var a = document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', saiu)
+        function clicar(){
+            
+            a.innerText = 'Clicou!'
+            a.style.background = 'yellow'
+            a.style.color = 'black'
+        }
+
+        function entrar(){
+            a.innerText = 'Entrou!'
+            a.style.background = 'red'
+            a.style.font = 'black'
+        }
+
+        function saiu(){
+            a.innerText = 'Saiu!'
+            a.style.background = 'grey'
+
+        }
+
+    </script>
+    
+</body>
+</html>
