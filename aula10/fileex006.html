@@ -6,47 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula10</title>
     <style>
-        div#area{
-            font: normal 15pt arial;
-            background-color: rgb(4, 196, 4);
-            color: white;
+        header{
             height: 200px;
-            width: 200px;
-            line-height: 200px;
-            text-align: center;
+            width: 100vw;
+            background-color: aqua;
+        }
+
+        nav > a{
+            width: 10px;
+            background-color: rgb(228, 12, 12);
+            color: white;
+
+        }
+        div#nav{
+            background-color: green;
+            display: none;
 
         }
     </style>
 </head>
 <body>
-    <div id="area">
-        Interaja...
-
-    </div>
+    <header>
+        <h1>olá mundo teste</h1>
+           <menu>
+        <nav>
+            <a href="#">1</a>
+            <div id="nav" onclick="clickMenu()">
+                <a href="#">2</a>
+                <a href="#">3</a>
+            </div>
+        </nav>
+           </menu>
+    </header>
 
     <script>
-        var a = document.getElementById('area')
-        a.addEventListener('click', clicar)
-        a.addEventListener('mouseenter', entrar)
-        a.addEventListener('mouseout', saiu)
-        function clicar(){
-            
-            a.innerText = 'Clicou!'
-            a.style.background = 'yellow'
-            a.style.color = 'black'
-        }
+        function clickMenu(){
+            ('div#nav'){
+                if ()
+            }
 
-        function entrar(){
-            a.innerText = 'Entrou!'
-            a.style.background = 'red'
-            a.style.font = 'black'
-        }
-
-        function saiu(){
-            a.innerText = 'Saiu!'
-            a.style.background = 'grey'
 
         }
+       
+
+       
 
     </script>
     
