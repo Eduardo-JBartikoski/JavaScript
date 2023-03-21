@@ -6,13 +6,13 @@ function verificar() {
     if (fano.value.length == 0 || Number(fano.value) > ano) {
         alert('[ERRO] Verifique os dados e tente novamente');
     } else {
-        var fsex = document.getElementsByClassName('radsex');
+        var fsex = document.getElementsByName('radsex');
         var idade = ano - Number(fano.value);
-        var genero = '';
+        var genero = ''
         if (fsex[0].checked) {
-            genero = 'homem';
+            genero = 'homem'
         } else if (fsex[1].checked) {
-            genero = 'mulher';
+            genero = 'mulher'
         }
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
     }
