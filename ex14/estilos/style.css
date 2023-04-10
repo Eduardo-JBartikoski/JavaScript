@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+div#dados{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    
+}
+
+header h1{
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
+    padding: 30px;
+}
+
+body{
+    background-color: rgb(43, 109, 196);
+}
+
+main{
+    width: 70vw;
+    display: block;
+    margin: auto;
+   
+
+}
+
+input{
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    margin: 5px;
+}
+
+input#sub{
+    padding: 2px;
+    border-radius: 3px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}

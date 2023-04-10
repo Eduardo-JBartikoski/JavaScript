@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <div id="dados">
+            <div>
+                <label for="txti">Início:</label>
+                <input type="number" id="txti" name="n1" required>
+            </div>
+
+            <div>
+                <label for="txtf">Fim:</label>
+                <input type="number" id="txtf" name="f1" required>
+            </div>
+
+            <div>
+                <label for="txtp">Passo:</label>
+                <input type="number" id="txtp" name="pass" min="1">
+            </div>
+
+            <input type="submit" value="contar" id="sub" onclick="contar()">
+            <div id="res">
+                Preparando contagem...
+
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        site eduardo
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
