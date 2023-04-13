@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(2, 94, 94);
+}
+
+div#fundo{
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    
+}
+
+div.sinal2 input{
+    display: flex;
+    background-color: blue;
+    font-size: 50pt;
+    position: relative;
+    top: 215px;
+    left: 500px;
+    margin: 10px;
+
+}
+
+input{
+    border: 1px solid black;
+}
+
+/* numeros */
+
+div.sinal input{
+    font-size: 50pt;
+    background-color: blue;
+    position: relative;
+    top: 400px;
+    left: 150px;
+    padding: 10px;
+    margin: 10px;
+}
