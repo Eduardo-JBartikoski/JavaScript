@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: rgb(35, 134, 228);
+}
+
+header h1{
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+    margin: 5px;
+}
+
+section{
+    background-color: rgb(10, 99, 99);
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+div#fundo{
+    
+    color: rgb(241, 241, 241);
+    font-size: 16pt;
+    padding: 15px;
+}
+
+input#txti{
+    margin-left:30px ;
+}
+input#txtf{
+    margin-left: 45px;
+}
+input#txtp{
+    margin-left: 31px;
+}
+
+div#res{
+    padding: 15px;
+}
+
+input#botao{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+input#botao:hover{
+    text-decoration: underline;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
